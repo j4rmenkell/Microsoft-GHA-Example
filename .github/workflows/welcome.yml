@@ -5,4 +5,4 @@ on:
     types: [opened]
 
 permissions:
-  pull_request: write
+  pull_requests: [write]
