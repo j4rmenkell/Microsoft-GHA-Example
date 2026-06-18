@@ -5,4 +5,11 @@ on:
     types: [opened]
 
 permissions:
-  pull_requests: [write]
+  pull_requests: write
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "job1"
